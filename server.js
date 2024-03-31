@@ -1,7 +1,6 @@
 const express = require('express');
 const routes = require('./routes');
-const sequalize = require('./config/connection')
-
+const sequalize = require('sequalize')
 
 
 const app = express();
